@@ -11614,7 +11614,7 @@ body {
 }
 
 .projects-section {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11660,7 +11660,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .contact-section .card {
   border: 0;
@@ -11678,7 +11678,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .contact-section .social a {
   text-align: center;
@@ -11697,14 +11697,36 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .skills {
-  padding: 3rem; 
+  padding: 3rem 3rem 0 3rem; 
 }
 
 .featurette-icon {
-  padding-top: 2rem;
-  
+  padding-top: 2rem; 
+}
+
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--animate {
+  transition: opacity 0.4s ease-in-out;
+}
+
+#restaurant_reservation {
+  background-image: url(../assets/img/restaurant.jpg);
 }
