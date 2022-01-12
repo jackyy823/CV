@@ -1,3 +1,3 @@
 # CV
 
-Personal Website created with HTML, CSS, and JavaScript
+Personal Website created with Bootstrap 5.
