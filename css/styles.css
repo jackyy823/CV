@@ -278,6 +278,10 @@ a:hover {
   color: #50817e;
 }
 
+a:any-link {
+  text-decoration: none;
+}
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
