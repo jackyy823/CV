@@ -1,3 +1,2 @@
 # CV
-
-Personal Website created with Bootstrap 5.
+Personal portfolio created with Bootstrap 5.
